@@ -1,0 +1,11 @@
+LAB 7 LOGBOOK - <chandan> - <E260B07F0700>
+SETUP: clang version 21.0.0 python3 version 3.12.13
+T1: running hello.py created 0 new files
+T1 prediction: ./hello.c will show syntax error cause we didn't compile it and python3 hello.c will run
+T1: the extra step in the C workflow is compiling and it produces ready made executable computer language file
+T1: when I run python3 hello.py the CPU compiles and executes the python file line by line ; hello.py is just 27bytes file , cause it is an interpreted langugae
+T1: hello.c is 70 bytes and hello is 33K bytes. my guess for why: hello is a compiled file , when we use clang hello.c -o hello , hello.c is compiled and converted into computer language and stored in hello , it's very big so it's size aswell
+T2: file says hello is  (Mach-O 64-bit executable arm64)
+T2 prediction: python3 itself is an interpreted language
+T2: python3 is an interpreted language and when we downloaded it in our local system , it's been stored in bin ,bin is a place where commands we use daily will be shared .  so when I run python3 hello.py the CPU compiles and executes contents in hello.py line by line  and reads
+code as data

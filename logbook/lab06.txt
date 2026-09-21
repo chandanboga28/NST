@@ -1,0 +1,13 @@
+LAB 6 LOGBOOK - <Chandan Boga> - <E26B07f0700>
+SETUP: my working directory is lab06-os-and-filesystem
+T1 prediction: I think ls / will show about 8 items
+T1: /bin holds the commands we use everyday.
+T1: /dev holds all devices  that are involved with our system which are both physical and virtual. They're are not visible in our finder cause changing those contents can harm our system. we can find it in terminal by ls /dev
+T1: / means root folder which contains all files of mac  , ~ means my home directory means /users/bogachandan , . means the directory in which we are at that time
+T1: the OS groups files by directories like if we download something from chrome, there is a default directory to store the files which are downloaded from chrome named downloads, we can also change it . 
+T2 prediction: ./deploy will not run because we did chmod 644 , it means for me(admin) permissions are 6, we have 3 permissions and they have values , 4 for read,2 for write and 1 for execute, but I have only 6 it means I only have permission to read/write
+T2 prediction: appending after u-w will not work because I've removed permission for user by the command u-w
+T2: -rw-r--r-- written in numbers is 644
+T2: ./deploy failed at first because there is no permission to execute
+T2: the new policy needed chmod 750
+-rwxr-x---  1 bogachandan  staff  36  8 Sep 13:27 deploy
